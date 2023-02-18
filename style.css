@@ -2,7 +2,44 @@
   box-sizing: border-box;
 }
 
+body{
+height: 100%;
+}
+
 body {
+  background-image: url('./assets/child-playroom-AdobeStock_299217121.jpeg');
+  background-position-y: -20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  margin-bottom: -100px;
+}
+
+.content {
+  position: absolute;
+  left: 19%;
+  padding-top: 10%;
+  background: rgba(10, 150, 10);
+  width: 54%;
+  min-height: 52vh;
+  top: 2rem;
+}
+
+
+
+/* body {
+  background-image: url('./assets/child-playroom-AdobeStock_299217121.jpeg');
+  background-position-y: -20vh;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+  margin-bottom: -100px;
+} */
+
+/* body {
   background-color: #333;
   color: #fff;
   display: flex;
@@ -12,9 +49,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   margin: 0;
-}
+} */
 
-.container {
+/* .container {
 	background-color: #fff;
 	color: #333;
 	border-radius: 5px;
@@ -23,17 +60,17 @@ body {
 	width: 92%;
 	min-height: 94vh;
   opacity: 0;
-}
+} */
 
 
-#game-canvas {
+/* #game-canvas {
   background: #f0f0f0;
   border-radius: 5px;
 	width: 100%;
 	margin: auto;
-}
+} */
 
-#source {
+/* #source {
   display: none;
 }
 
@@ -41,4 +78,4 @@ body {
   background-image: url("assets/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
